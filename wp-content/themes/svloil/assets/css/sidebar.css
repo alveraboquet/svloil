@@ -1,0 +1,15 @@
+.sidebar {
+    border-left: 1px solid lightgray;
+}
+
+.side_sponsors {
+    margin: auto;
+}
+
+.side_sponsor {
+    margin-bottom: 10%;
+}
+
+.side_sponsor img {
+    width: 100%;
+}

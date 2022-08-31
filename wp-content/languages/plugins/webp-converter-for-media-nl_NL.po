@@ -1,0 +1,528 @@
+# Translation of Plugins - Converter for Media &#8211; One-click image optimization | Convert WebP and AVIF &amp; Optimize Images - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Converter for Media &#8211; One-click image optimization | Convert WebP and AVIF &amp; Optimize Images - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-23 13:11:17+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Converter for Media &#8211; One-click image optimization | Convert WebP and AVIF &amp; Optimize Images - Stable (latest release)\n"
+
+#: templates/components/fields/quality.php:49
+msgid "Optimal"
+msgstr "Optimaal"
+
+#: src/Settings/Page/GeneralSettingsPage.php:62
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: src/Settings/Page/AdvancedSettingsPage.php:27
+msgid "Advanced Settings"
+msgstr "Geavanceerde instellingen"
+
+#. translators: %1$s: open strong tag, %2$s: close strong tag, %3$s: break line
+#. tag, %4$s: setting name, %5$s: setting name
+#: src/Error/Notice/BypassingApacheNotice.php:56
+msgid "In case of problems with finding such settings, %1$splease contact your hosting support and send them the following message%2$s: %3$s\"I would like to disable %4$s (or %5$s) for static content files like .jpg, .jpeg, .png, .gif and .webp. These files should have been handled by Apache server instead of Nginx. I need help on this matter.\""
+msgstr "In geval van problemen met het vinden van dergelijke instellingen, %1$sneem dan contact op met je hosting ondersteuning en stuur hen het volgende bericht%2$s: %3$s\"Ik zou %4$s (of %5$s) willen uitschakelen voor statische inhoudsbestanden zoals .jpg, .jpeg, .png, .gif en .webp. Deze bestanden zouden moeten worden afgehandeld door apache server in plaats van nginx. ik heb hulp nodig bij deze kwestie.\""
+
+#. Author of the plugin
+msgid "Mateusz Gbiorczyk - Optimize Images by convert AVIF & WebP"
+msgstr "Mateusz Gbiorczyk - Optimize Images by convert AVIF & WebP"
+
+#. translators: %1$s: service name
+#: src/Notice/CloudflareNotice.php:79
+msgid "Log in to your %1$s dashboard."
+msgstr "Log in op je %1$s dashboard."
+
+#. translators: %s: setting name
+#: src/Error/Notice/BypassingApacheNotice.php:49
+msgid "- %s or similar in the section related to Apache and Nginx configuration"
+msgstr "- %s of gelijkaardig in de sectie met betrekking tot Apache en Nginx configuratie"
+
+#. translators: %1$s: button label, %2$s: tab name, %3$s: tab name, %4$s:
+#. section name
+#: src/Error/Notice/BypassingApacheNotice.php:35
+msgid "- for SiteGround hosting click %1$s button on the websites list -> click %2$s and %3$s tab -> find %4$s section"
+msgstr "- voor SiteGround hosting klik %1$s knop op de sites lijst -> klik %2$s en %3$s tab -> zoek %4$s sectie"
+
+#. translators: %1$s: open strong tag, %2$s: close strong tag
+#: src/Error/Notice/BypassingApacheNotice.php:26
+msgid "Requests to images are processed by Nginx server bypassing Apache. Please log in to your hosting control panel, go to management of this website and try to find one of the following settings %1$sand disable it if it is active%2$s:"
+msgstr "Aanvragen om afbeeldingen worden verwerkt door Nginx server om Apache te omzeilen. Log in op je hosting control panel, ga naar beheer van deze site en probeer een van de volgende instellingen %1$sen schakel het uit als het actief is%2$s:"
+
+#. Description of the plugin
+msgid "Speed up your website by using our WebP & AVIF Converter (formerly WebP Converter for Media). Serve WebP and AVIF images instead of standard formats JPEG, PNG and GIF just now!"
+msgstr "Versnel je site door gebruik te maken van onze WebP & AVIF Converter (voorheen WebP Converter for Media). Serveer nu WebP en AVIF afbeeldingen in plaats van de standaard formaten JPEG, PNG en GIF!"
+
+#. Plugin Name of the plugin
+#: src/Service/MediaStatusViewer.php:119
+msgid "Converter for Media"
+msgstr "Converter for Media"
+
+#. translators: %1$s: button label
+#: src/Notice/LitespeedNotice.php:73
+msgid "Look for the %1$s icon in the admin bar."
+msgstr "Kijk voor het %1$s pictogram in de beheer balk."
+
+#: templates/components/fields/image_size.php:41
+msgid "Max. height:"
+msgstr "Max. hoogte:"
+
+#: templates/components/fields/image_size.php:28
+msgid "Max. width:"
+msgstr "Max. breedte:"
+
+#. translators: %1$s: width value, %2$s: height value
+#: src/Settings/Option/ImageResizeOption.php:81
+msgid "Reduce the weight of converted images that are larger than their largest image size (thumbnail size) used in your theme even more. The recommended value for you is %1$s x %2$s pixels."
+msgstr "Verminder het gewicht nog meer van geconverteerde afbeeldingen, die groter zijn dan hun grootste afbeeldingsgrootte (thumbnail grootte), gebruikt door je thema. De aanbevolen waarde voor je is %1$s x %2$s pixels."
+
+#: src/Settings/Option/ImageResizeOption.php:56
+msgid "Resize large images to maximum dimensions in pixels during image conversion, keeping the original aspect ratio"
+msgstr "Formaat van grote afbeeldingen aanpassen aan maximale afmetingen in pixels tijdens afbeeldingconversie, met behoud van de oorspronkelijke afbeeldingverhouding"
+
+#: src/Settings/Option/ImageResizeOption.php:49
+msgid "Maximum image dimensions"
+msgstr "Maximale afbeeldingafmetingen"
+
+#. translators: %1$s: images count
+#: src/Conversion/Endpoint/ImagesCounterEndpoint.php:56
+#: src/Service/WpCliManager.php:61
+msgid "%1$s for AVIF and %2$s for WebP"
+msgstr "%1$s voor AVIF en %2$s voor WebP"
+
+#. translators: %1$s: directory tag, %2$s: invalid config value, %3$s: correct
+#. config value
+#: src/Error/Notice/RewritesNotExecutedNotice.php:46
+msgid "If you are using Apache server, this issue usually related to the virtual host settings in the Apache configuration. In the .conf file appropriate for your VirtualHost, in the %1$s section, replace the value of %2$s with the value of %3$s."
+msgstr "Als je apache server gebruikt, heeft dit probleem meestal te maken met de virtual host instellingen in de apache configuratie. Vervang in het .conf bestand dat geschikt is voor je virtualHost, in de sectie %1$s, de waarde van %2$s door de waarde van %3$s."
+
+#. translators: %1$s: server name, %2$s: open strong tag, %3$s: home URL, %5$s:
+#. anchor tag, %4$s: title of question, %6$s: close strong tag
+#: src/Error/Notice/RewritesNotExecutedNotice.php:28
+msgid "If you are using %1$s server, please contact your hosting support (or server administrator) and send them the following message: %2$s\"I am trying to configure Converter for Media plugin with WebP and AVIF support. In order to do this, I have been asked to contact you for help adding required rules to Nginx configuration of my website - %3$s. More information in the plugin FAQ: %4$s (in the question: %5$s)\"%6$s"
+msgstr "Als je %1$s server gebruikt, neem dan contact op met je hostingondersteuning (of serverbeheerder) en stuur hen het volgende bericht: %2$s \"Ik probeer Converter for Media plugin te configureren met WebP en AVIF ondersteuning. Om dit te doen, ben ik gevraagd om contact met je op te nemen voor hulp bij het toevoegen van vereiste regels aan Nginx-configuratie van mijn website - %3$s. Meer informatie in de plugin FAQ: %4$s (in de vraag: %5$s)\"%6$s"
+
+#: src/Error/Notice/RewritesNotExecutedNotice.php:25
+msgid "Your server does not supports using .htaccess files from custom locations. Or your server requires additional configuration for the plugin to function properly."
+msgstr "Je server ondersteunt niet het gebruik van .htaccess bestanden van aangepaste locaties. Of je server vereist extra configuratie om de plugin goed te laten werken."
+
+#. translators: %s images count
+#: src/Service/WpCliManager.php:137
+#: templates/components/widgets/regenerate.php:148
+msgid "Failed or skipped file conversion attempts: %s"
+msgstr "Mislukt of overgeslagen bestand conversie pogingen: %s"
+
+#. translators: %s images count
+#: src/Service/WpCliManager.php:130
+#: templates/components/widgets/regenerate.php:140
+msgid "Successfully converted files: %s"
+msgstr "Succesvol geconverteerde bestanden: %s"
+
+#: templates/components/widgets/about.php:33
+msgid "Find out more"
+msgstr "Kom meer te weten"
+
+#: templates/components/widgets/about.php:17
+msgid "When the browser tries to download an image file, the server checks if it supports the AVIF format (if enabled in the plugin settings). If so, the browser will receive an equivalent of the original image in AVIF format. If it does not support AVIF, but supports the WebP format, the browser will receive an equivalent of the original image in WebP format. If the browser does not support either WebP or AVIF, the original image is loaded. This means full support for all browsers."
+msgstr "Wanneer de browser een afbeeldingsbestand probeert te downloaden, controleert de server of deze het AVIF format ondersteunt (indien ingeschakeld in de plugin instellingen). Als dat het geval is, ontvangt de browser een equivalent van de originele afbeelding in AVIF lay-out. Als het geen AVIF ondersteunt, maar wel het WebP format, ontvangt de browser een equivalent van de originele afbeelding in WebP format. Als de browser WebP of AVIF niet ondersteunt, wordt de originele afbeelding geladen. Dit betekent volledige ondersteuning voor alle browsers."
+
+#. translators: %s: file extension
+#: src/Settings/Option/SupportedExtensionsOption.php:59
+msgid "%s (converting to AVIF only)"
+msgstr "%s (alleen converteren naar AVIF)"
+
+#: src/Settings/Option/SupportedExtensionsOption.php:44
+msgid "Files from supported directories that will be converted to output formats."
+msgstr "Bestanden uit ondersteunde folders die worden geconverteerd naar uitvoerformaten."
+
+#: templates/components/notices/clear-cache.php:42
+msgid "Done"
+msgstr "Gedaan"
+
+#. translators: %1$s: button label
+#: src/Notice/CloudflareNotice.php:95
+msgid "If you agree, click %1$s."
+msgstr "Als je akkoord gaat, klik dan op %1$s."
+
+#. translators: %1$s: section label, %2$s: button label
+#: src/Notice/CloudflareNotice.php:89
+msgid "Under %1$s, click %2$s. A warning window appears."
+msgstr "Onder %1$s, klik op %2$s. Er verschijnt een waarschuwingsvenster."
+
+#. translators: %1$s: button label
+#: src/Notice/CloudflareNotice.php:84 src/Notice/LitespeedNotice.php:78
+msgid "Click %1$s."
+msgstr "Klik op %1$s."
+
+#. translators: %1$s: service name
+#: templates/components/notices/clear-cache.php:25
+msgid "You are using %1$s, right? Please follow the steps below for the plugin to function properly:"
+msgstr "Je gebruikt %1$s, toch? Volg de onderstaande stappen om de plugin goed te laten werken:"
+
+#. translators: %1$s: setting name, %2$s: setting name
+#: src/Error/Notice/BypassingApacheNotice.php:43
+msgid "- %1$s, %2$s or similar in the section related to Speed or Caching"
+msgstr "- %1$s, %2$s of soortgelijk in de sectie met betrekking tot snelheid of caching"
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: src/Plugin/Links.php:101 src/Settings/Option/ConversionMethodOption.php:72
+#: src/Settings/Option/ImageResizeOption.php:90
+#: src/Settings/Option/OutputFormatsOption.php:80
+msgid "%1$sUpgrade to PRO%2$s"
+msgstr "%1$sUpgrade naar PRO%2$s"
+
+#. translators: %1$s: images count
+#: src/Conversion/Cron/CronStatusViewer.php:71
+msgid "Converting images (%s) is in progress."
+msgstr "Het converteren van afbeeldingen (%s) is aan de gang."
+
+#: src/Service/DeactivationModalGenerator.php:94
+msgid "Did you check the operation of the plugin in accordance with the instructions?"
+msgstr "Heb je de werking van de plugin gecontroleerd conform de instructies?"
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: src/Service/DeactivationModalGenerator.php:89
+msgid "Check out %1$sour instructions%2$s and see how to check if the plugin is working properly."
+msgstr "Bekijk %1$sonze instructies%2$s en zie hoe je kunt controleren of de plugin goed werkt."
+
+#: src/Service/DeactivationModalGenerator.php:85
+msgid "Images are not displayed in WebP format"
+msgstr "Afbeeldingen worden niet weergegeven in webP format"
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: src/Service/DeactivationModalGenerator.php:73
+msgid "If your server does not meet the technical requirements, you can use \"Remote server\" as \"Conversion method\", in %1$sthe plugin settings%2$s."
+msgstr "Als je server niet aan de technische eisen voldoet, kun je \"Remote server\" gebruiken als \"Conversie methode\", in %1$sde plugin instellingen%2$s."
+
+#: src/Service/DeactivationModalGenerator.php:55
+msgid "Can you please take a moment to tell us why you are deactivating this plugin (anonymous answer)?"
+msgstr "Kun je even de tijd nemen om ons te vertellen waarom je deze plugin deactiveert (anoniem antwoord)?"
+
+#: templates/views/settings.php:38
+msgid "The access token has been activated!"
+msgstr "Het toegangstoken is geactiveerd!"
+
+#: templates/views/settings.php:42
+msgid "Changes were successfully saved!"
+msgstr "Aanpassingen zijn succesvol opgeslagen!"
+
+#: src/Service/DeactivationModalGenerator.php:57
+msgid "Skip and Deactivate"
+msgstr "Overslaan en deactiveren"
+
+#: src/Service/DeactivationModalGenerator.php:56
+msgid "Submit and Deactivate"
+msgstr "Verstuur en deactiveer"
+
+#: src/Service/DeactivationModalGenerator.php:54
+msgid "We are sorry that you are leaving our plugin Converter for Media"
+msgstr "Wij vinden het jammer dat je niet langer gebruik maakt van onze plugin Converter for Media"
+
+#: templates/components/widgets/support.php:13
+msgid "We are waiting for your message"
+msgstr "We wachten op je bericht"
+
+#: templates/components/widgets/regenerate.php:176
+msgid "Additional informations about process:"
+msgstr "Extra info over het proces:"
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: templates/components/widgets/regenerate.php:164
+msgid "Do you want to know how a plugin works and how to check if it is working properly? Read %1$sour manual%2$s."
+msgstr "Wil je weten hoe een plugin werkt en hoe je kunt controleren of het goed werkt? Lees %1$sons handboek%2$s."
+
+#: templates/components/widgets/regenerate.php:158
+#: templates/views/settings.php:43
+msgid "Please flush cache if you use caching plugin or caching via hosting."
+msgstr "Ververs de cache wanneer je gebruik maakt van een caching-plugin of caching via de hosting."
+
+#: src/Service/WpCliManager.php:115
+#: templates/components/widgets/regenerate.php:157
+msgid "The process was completed successfully. Your images have been converted!"
+msgstr "Het is gelukt. Je afbeeldingen zijn geconverteerd!"
+
+#. translators: %s progress value
+#: src/Service/WpCliManager.php:122
+#: templates/components/widgets/regenerate.php:132
+msgid "Saving the weight of your images: %s"
+msgstr "Bespaart het gewicht van je afbeeldingen: %s"
+
+#: templates/components/widgets/regenerate.php:22
+msgid "An error occurred while connecting to REST API. Please try again."
+msgstr "Er was een fout tijdens het verbinden met de REST API. Probeer het opnieuw."
+
+#: templates/components/widgets/options.php:44
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#. translators: %1$s: open strong tag, %2$s: close strong tag, %3$s: errors
+#. codes
+#: templates/components/widgets/errors.php:32
+msgid "%1$sError codes:%2$s %3$s"
+msgstr "%1$sFout codes:%2$s %3$s"
+
+#: templates/components/widgets/errors.php:15
+msgid "Server configuration error"
+msgstr "Serverconfiguratiefout"
+
+#: templates/components/widgets/about.php:24
+msgid "The plugin in default loading mode (via .htaccess) does not change file URLs, so there are no problems with saving the page to the cache and the page generation time does not increase."
+msgstr "De standaard laadmethode voor afbeeldingen (via .htaccess) past de URLs niet aan, zodat er geen problemen optreden bij het opslaan van de pagina in de cache en de laadtijd van de pagina niet toeneemt."
+
+#: templates/components/widgets/about.php:11
+msgid "How does it work?"
+msgstr "Hoe werkt het?"
+
+#: templates/components/notices/welcome.php:33
+msgid "Speed up my website"
+msgstr "Versnel mijn site"
+
+#: templates/components/notices/welcome.php:16
+msgid "Thank you for installing our plugin Converter for Media!"
+msgstr "Bedankt voor het installeren van onze Converter for Media plugin!"
+
+#: templates/components/notices/thanks.php:38
+msgid "Hide, do not show again"
+msgstr "Verbergen, niet meer tonen"
+
+#: templates/components/notices/thanks.php:33
+msgid "Add plugin review"
+msgstr "Plugin beoordeling toevoegen"
+
+#: templates/components/notices/thanks.php:24
+msgid "We are glad that you are using our plugin and we hope you are satisfied with it. If you want, you can support us in the development of the plugin by adding a plugin review. This is very important and gives us the opportunity to create even better tools for you. Thank you to everyone."
+msgstr "We zijn blij dat je onze plugin gebruikt en we hopen dat je er tevreden over bent. Als je wilt, kun je ons steunen bij de ontwikkeling van de plugin door ons een koffie te geven door een plugin beoordeling toe te voegen. Dit is heel belangrijk en geeft ons de kans om nog betere hulpmiddelen voor je te maken. Dank aan iedereen."
+
+#: templates/components/notices/thanks.php:19
+msgid "Thank you for using our plugin Converter for Media!"
+msgstr "Veel dank voor het gebruikmaken van onze plugin Converter for Media!"
+
+#: templates/components/fields/token.php:40
+msgid "Please wait..."
+msgstr "Even wachten..."
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: templates/components/fields/token.php:33
+msgid "%1$sCalculate%2$s"
+msgstr "%1$sBereken%2$s"
+
+#: templates/components/widgets/options-sidebar.php:52
+msgid "Deactivate Token"
+msgstr "Deactiveer token"
+
+#: templates/components/widgets/options-sidebar.php:48
+msgid "Activate Token"
+msgstr "Activeer token"
+
+#: src/Settings/Option/SupportedExtensionsOption.php:37
+msgid "List of supported files extensions"
+msgstr "Lijst van ondersteunde bestandsextensies"
+
+#: src/Settings/Option/SupportedDirectoriesOption.php:46
+msgid "Files from these directories will be converted to output formats."
+msgstr "Bestanden uit deze folders worden ondersteund in uitvoerformaten."
+
+#: src/Settings/Option/SupportedDirectoriesOption.php:39
+msgid "List of supported directories"
+msgstr "Lijst van ondersteunde folders"
+
+#: src/Settings/Option/OutputFormatsOption.php:74
+msgid "The AVIF format is a new extension - it is the successor to WebP. It allows you to achieve even higher levels of image compression, and the quality of the converted images is better than in WebP."
+msgstr "Het AVIF format is een nieuwe uitbreiding - het is de opvolger van WebP. Hiermee kun je nog hogere niveaus van afbeelding compressie bereiken, en de kwaliteit van de geconverteerde afbeeldingen is beter dan in WebP."
+
+#: src/Settings/Option/OutputFormatsOption.php:66
+msgid "List of supported output formats"
+msgstr "Lijst met ondersteunde formaten"
+
+#. translators: %s: loader type
+#: src/Settings/Option/LoaderTypeOption.php:64
+msgid "%s (without rewrites in .htaccess files or Nginx configuration)"
+msgstr "%s (zonder herschrijven in .htaccess-bestanden of Nginx-configuratie)"
+
+#: src/Settings/Option/LoaderTypeOption.php:60
+msgid "via .htaccess"
+msgstr "via .htaccess"
+
+#. translators: %s: loader type
+#: src/Settings/Option/LoaderTypeOption.php:59
+msgid "%s (recommended)"
+msgstr "%s (aanbevolen)"
+
+#: src/Settings/Option/LoaderTypeOption.php:47
+msgid "By changing image loading mode it allows you to bypass some server configuration problems."
+msgstr "Door het aanpassen van de laadmethode van afbeeldingen kun je sommige problemen in de serverconfiguratie overbruggen."
+
+#: src/Settings/Option/LoaderTypeOption.php:40
+msgid "Image loading mode"
+msgstr "Laadmethode voor afbeeldingen"
+
+#: src/Settings/Option/ExtraFeaturesOption.php:72
+msgid "Log errors while converting to debug.log file (when debugging in WordPress is active)"
+msgstr "Log fouten tijdens het converteren naar foutopsporing .log bestand (wanneer foutopsporing in WordPress actief is)"
+
+#: src/Settings/Option/ExtraFeaturesOption.php:68
+msgid "Enable cron to automatically convert images from outside Media Library (images from Media Library are converted immediately after upload)"
+msgstr "Cron inschakelen om afbeeldingen van buiten de mediabibliotheek automatisch te converteren (afbeeldingen uit de mediabibliotheek worden onmiddellijk na het uploaden geconverteerd)"
+
+#: src/Settings/Option/ExtraFeaturesOption.php:64
+msgid "Keep images metadata stored in EXIF or XMP formats (unavailable for GD conversion method)"
+msgstr "Bewaar de metagegevens van afbeeldingen, opgeslagen in EXIF of XMP formaten (alleen beschikbaar voor de GD conversiemethode)"
+
+#: src/Settings/Option/ExtraFeaturesOption.php:60
+msgid "Automatic removal of files in output formats larger than original"
+msgstr "Automatische verwijdering van bestanden in uitvoerformaten die groter zijn dan het origineel"
+
+#: src/Settings/Option/ExtraFeaturesOption.php:50
+msgid "Options allow you to enable new functionalities that will increase capabilities of plugin"
+msgstr "Opties stellen je in staat om nieuwe functionaliteiten mogelijk te maken die de mogelijkheden van plugin vergroten"
+
+#: src/Settings/Option/ExtraFeaturesOption.php:43
+msgid "Extra features"
+msgstr "Extra functies"
+
+#: src/Settings/Option/ConversionMethodOption.php:66
+msgid "The Remote server allows you to reduce the server load, because your images are converted by our server. This option is also useful when the server does not meet all of the plugin's technical requirements."
+msgstr "Met de Remote server kan je de belasting van de server verminderen, omdat je afbeeldingen door onze server worden omgezet. Deze optie is ook nuttig als de server niet aan alle technische eisen van de plugin voldoet."
+
+#: src/Settings/Option/ConversionMethodOption.php:58
+msgid "Conversion method"
+msgstr "Conversiemethode"
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag, %3$s: open
+#. anchor tag, %4$s: close anchor tag
+#: src/Settings/Option/AccessTokenOption.php:67
+msgid "Provide a valid token to access %1$sthe PRO functionalities%2$s. You can find out more about it %3$shere%4$s."
+msgstr "Geef een geldige waarde om toegang te krijgen tot %1$sde PRO functionaliteiten%2$s. Je kunt er meer over vinden %3$shier%4$s."
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: src/Settings/Option/AccessTokenOption.php:59
+msgid "To manage your subscriptions, please visit %1$sour website%2$s."
+msgstr "Om je abonnementen te beheren, bezoek je %1$sonze site%2$s."
+
+#: src/Settings/Option/AccessTokenOption.php:49
+msgid "Access Token"
+msgstr "Toegangstoken"
+
+#. translators: %1$s: open anchor tag, %2$s: close anchor tag
+#: src/Plugin/Links.php:79
+msgid "%1$sSettings%2$s"
+msgstr "%1$sInstellingen%2$s"
+
+#: src/Service/DeactivationModalGenerator.php:130
+msgid "What is reason? What can we improve for you?"
+msgstr "Om welke reden? Wat kunnen wij volgens je verbeteren?"
+
+#: src/Service/DeactivationModalGenerator.php:128
+msgid "Other reason"
+msgstr "Andere reden"
+
+#: src/Service/DeactivationModalGenerator.php:119
+msgid "This is a temporary deactivation"
+msgstr "Dit is een tijdelijke uitschakeling"
+
+#: src/Service/DeactivationModalGenerator.php:112
+msgid "What is name of this plugin? Why is it better?"
+msgstr "Wat is de naam van deze plugin? Waarom is die beter?"
+
+#: src/Service/DeactivationModalGenerator.php:110
+msgid "I found a better plugin"
+msgstr "Ik heb een betere plugin gevonden"
+
+#: src/Service/DeactivationModalGenerator.php:103
+msgid "What exactly happened?"
+msgstr "Wat gebeurde er precies?"
+
+#: src/Service/DeactivationModalGenerator.php:101
+msgid "This plugin broke my website"
+msgstr "Door de plugin werkt mijn site niet meer"
+
+#: src/Service/DeactivationModalGenerator.php:78
+msgid "What is your error? Have you been looking for solution to this issue?"
+msgstr "Welke fout krijg je? Heb je al naar oplossing gezocht voor dit probleem?"
+
+#: src/Service/DeactivationModalGenerator.php:64
+msgid "I have \"Server configuration error\" in plugin settings"
+msgstr "Ik heb \"Serverconfiguratie fout\" bij de instellingen van de plugin"
+
+#: src/Error/Notice/WebpRequiredNotice.php:24
+msgid "WebP as the output format is required. In the \"Output formats\" option, select the WebP format."
+msgstr "Als uitvoerformaat is WebP vereist. Kies in de optie \"Uitgave formats\" het WebP format."
+
+#: src/Error/Notice/SettingsIncorrectNotice.php:24
+msgid "The plugin settings are incorrect! Check them out and save them again. Please remember that you must have at least one option selected for each field."
+msgstr "De instellingen van de plugin zijn onjuist! Bekijk ze en sla ze opnieuw op. Houd er rekening mee dat je ten minste één optie voor elk veld moet hebben geselecteerd."
+
+#. translators: %1$s: open strong tag, %2$s: close strong tag
+#: src/Error/Notice/RewritesNotWorkingNotice.php:26
+msgid "Redirects on your server are not working. Check the correct configuration for you in %1$sthe plugin FAQ%2$s. If you have checked the configuration, it means that your server does not support redirects from the .htaccess file or your server configuration is not compatible with this plugin."
+msgstr "Omleidingen op je server werken niet. Controleer de juiste configuratie voor jou in %1$sde plugin FAQ%2$s. Als je de configuratie hebt gecontroleerd, betekent dit dat je server geen omleidingen ondersteunt vanuit het .htaccess bestand of dat je serverconfiguratie niet compatibel is met deze plugin."
+
+#: src/Error/Notice/RewritesCachedNotice.php:24
+msgid "Your server uses the cache for HTTP requests. The rules from .htaccess file or from Nginx configuration are not executed every time when the image is loaded, but the last redirect from cache is performed. With each request to image, your server should execute the rules from .htaccess file or from Nginx configuration. Now it only does this the first time and then uses cache. This means that if your server redirected image to WebP format the first time, it does so on every request. It should check the rules from .htaccess file or from Nginx configuration each time during request to image and redirect only when the conditions are met."
+msgstr "Je server gebruikt de cache voor HTTP-aanvragen. De regels van het .htaccess bestand of van de Nginx configuratie worden niet elke keer uitgevoerd wanneer de afbeelding wordt geladen, maar de laatste omleiding vanuit de cache wordt uitgevoerd. Bij elke aanvraag naar image moet je server de regels uitvoeren vanuit het .htaccess bestand of vanuit de Nginx configuratie. Nu doet het dit alleen de eerste keer en gebruikt dan cache. Dit betekent dat als je server de afbeelding de eerste keer omleidt naar WebP format, dit op elk verzoek gebeurt. Het moet de regels van .htaccess bestand of van Nginx configuratie elke keer controleren tijdens de aanvraag naar de afbeelding en alleen omleiden wanneer aan de voorwaarden is voldaan."
+
+#. translators: %1$s: anchor tag, %2$s: anchor tag, %3$s: anchor tag
+#: src/Error/Notice/RestApiDisabledNotice.php:26
+msgid "The REST API on your website is not available. Please verify this and try again. Pay special attention to the filters: %1$s, %2$s and %3$s."
+msgstr "De REST API op je site is niet beschikbaar. Controleer dit en probeer het opnieuw. Let vooral op de filters: %1$s, %2$s en %3$s."
+
+#. translators: %1$s: filter name, %2$s: server path, %3$s: open anchor tag,
+#. %4$s: close anchor tag
+#: src/Error/Notice/PathWebpNotWritableNotice.php:26
+msgid "The path for saving converted WebP files does not exist and cannot be created (function is_writable() returns false). Use filter %1$s to set the correct path. The current using path is: %2$s. Please read %3$sthe plugin FAQ%4$s to learn more."
+msgstr "Het pad voor het opslaan van geconverteerde WebP bestanden bestaat niet en kan niet worden gemaakt (functie is_writable() retourneert false). Gebruik filter %1$s om het juiste pad in te stellen. Het huidige gebruikte pad is: %2$s. Lees %3$sde plugin FAQ%4$s voor meer informatie."
+
+#. translators: %1$s: filter name, %2$s: server path
+#: src/Error/Notice/PathWebpDuplicatedNotice.php:26
+msgid "The paths for /uploads files and for saving converted WebP files are the same. Change them using filter %1$s. The current path for them is: %2$s."
+msgstr "De paden voor /uploads bestanden en voor het opslaan van geconverteerde WebP bestanden zijn hetzelfde. Wijzig ze met filter %1$s. Het huidige pad voor hen is: %2$s."
+
+#. translators: %1$s: filter name, %2$s: server path, %3$s: open anchor tag,
+#. %4$s: close anchor tag
+#: src/Error/Notice/PathUploadsUnavailableNotice.php:26
+msgid "The path for /uploads files does not exist (function is_dir() returns false). Use filter %1$s to set the correct path. The current using path is: %2$s. Please read %3$sthe plugin FAQ%4$s to learn more."
+msgstr "Het pad voor /uploads bestanden bestaat niet (functie is_dir() retourneert false). Gebruik filter %1$s om het juiste pad in te stellen. Het huidige gebruikte pad is: %2$s. Lees %3$sde plugin FAQ%4$s voor meer informatie."
+
+#. translators: %1$s: server path
+#: src/Error/Notice/PathHtaccessNotWritableNotice.php:26
+msgid "Unable to create or edit .htaccess file (function is_readable() or is_writable() returns false). Change directory permissions. The current using path of file is: %1$s. Please contact your server administrator."
+msgstr "Kan geen .htaccess-bestand maken of bewerken (functie is_readable() of is_writable() retourneert false). Wijzig folder rechten. Het huidige pad van het bestand is: %1$s. Neem contact op met je serverbeheerder."
+
+#. translators: %1$s: loader name
+#: src/Error/Notice/PassthruNotWorkingNotice.php:26
+msgid "%1$s loading mode is not compatible with your server. Sorry for the inconvenience."
+msgstr "%1$s laadmodus is niet compatibel met je server. Jammer voor het ongemak."
+
+#. translators: %s: anchor tag
+#: src/Error/Notice/PassthruExecutionNotice.php:29
+msgid "Execution of the PHP file from path \"%s\" is blocked on your server, or access to this file is blocked. Add an exception and enable this file to be executed via HTTP request. To do this, check the security plugin settings (if you are using) or the security settings of your server."
+msgstr "Uitvoering van het PHP-bestand vanaf pad \"%s\" wordt geblokkeerd op je server, of de toegang tot dit bestand wordt geblokkeerd. Voeg een uitzondering toe en schakel dit bestand in via http aanvraag. Controleer hiervoor de instellingen van de beveiliging plugin (als je deze gebruikt) of de beveiligingsinstellingen van je server."
+
+#: src/Error/Notice/PassthruExecutionNotice.php:33
+#: src/Error/Notice/RewritesCachedNotice.php:25
+#: src/Error/Notice/RewritesNotExecutedNotice.php:51
+#: src/Error/Notice/RewritesNotWorkingNotice.php:30
+msgid "In this case, please contact your server administrator."
+msgstr "Neem in dit geval contact op met je serverbeheerder."
+
+#: src/Error/Notice/ApiLimitExceededNotice.php:24
+msgid "Your limit for the number of converted images in the current billing period has been exceeded. You can wait until the end of the billing period. Then your limit will be renewed. Another solution is to cancel the current subscription and buy a new one with a new limit."
+msgstr "Je limiet voor het aantal geconverteerde afbeeldingen in de huidige factureringsperiode is overschreden. Je kunt wachten tot het einde van de factureringsperiode. Dan wordt je limiet vernieuwd. Een andere oplossing is om het huidige abonnement op te zeggen en een nieuw te kopen met een nieuwe limiet."
+
+#: src/Error/Notice/AccessTokenInvalidNotice.php:24
+msgid "Your access token is invalid or your subscription has expired. Check the value given in and try to activate it again."
+msgstr "Je toegangstoken is ongeldig of je abonnement is verlopen. Controleer de in gegeven waarde en probeer het opnieuw te activeren."
+
+#: src/Conversion/Method/RemoteMethod.php:76
+#: src/Conversion/Method/RemoteMethod.php:81
+msgid "Remote server"
+msgstr "Remote server"
+
+#. Author URI of the plugin
+msgid "https://mattplugins.com/"
+msgstr "https://mattplugins.com/"

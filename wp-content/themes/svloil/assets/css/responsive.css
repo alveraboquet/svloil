@@ -1,0 +1,438 @@
+@media only screen and (max-width: 400px) {
+    .gespeeld, .poulestand tr td:nth-child(4), .poulestand tr th:nth-child(4),
+    .overview-container .clocktime {
+        display: none;
+    }
+
+    .brand-logo {
+        max-width: 90px;
+        max-height: 90px !important;
+    }
+
+    .sportlink-table table td {
+        padding: 8px 4px;
+    }
+
+    .sportlink-table table, .rangNum span, .standLogo span {
+        font-size: 13px !important;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .sidebar, .table-block__tablet, #resultTablet, .desktopRanking, .saldoNum,
+    .pouleLogo, .news-image__desktop, .poulestand tr td:nth-child(8),
+    .poulestand tr th:nth-child(8), .poulestand tr th:nth-child(9),
+    .poulestand tr td:nth-child(9), .poulestand tr td:nth-child(10),
+    .poulestand tr th:nth-child(10), .main-home .news-overview__item {
+        display: none;
+    }
+
+    .header .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .brand-col div {
+        padding-left: 12px;
+        height: 100%;
+    }
+
+    .team-data {
+        margin-top: 8px !important;
+    }
+
+    .content-container {
+        padding-top: 20px;
+    }
+
+    .header-image {
+        height: 230px;
+    }
+
+    .navbar-collapse, #teamRanking {
+        padding: 0;
+    }
+
+    .navbar-collapse li::before, .navbar-collapse li::after {
+        content: none;
+    }
+
+    .brand-logo img, .headerMain_sponsor .sponsorlogo img {
+        width: 100px;
+    }
+
+    .brand-logo img {
+        z-index: inherit;
+    }
+
+    .navbar-toggler {
+        background: #009624;
+        border-radius: 0;
+    }
+
+    .main-menu {
+        position: absolute;
+        z-index: 100;
+    }
+
+    .slick-list {
+        margin-right: 0;
+    }
+
+    .last-match__result p {
+        font-size: 32px;
+    }
+
+    .match-team p {
+        font-size: 24px;
+    }
+
+    .archive-sponsor__item-logo img, .team-photo img, .team-logo img, .main-menu, .navbar-toggler {
+        width: 100%;
+    }
+
+    .row .wpcf7 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .news-image__mobile {
+        margin-bottom: 12px;
+    }
+
+    .commissies td {
+        font-size: 14px;
+    }
+
+    .buildings img {
+        max-width: 94%;
+        padding-top: 12px;
+    }
+
+    .team-sponsors {
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+
+    .testdiv {
+        max-width: 100%;
+    }
+
+    .map {
+        max-height: 400px;
+    }
+
+    .home-news__item {
+        margin-left: calc(var(--bs-gutter-x) * .5);
+        margin-right: calc(var(--bs-gutter-x) * .5);
+    }
+}
+
+@media only screen and (min-width: 577px) {
+    .table-block__mobile, #resultMobile, .mobileRanking, .news-image__mobile {
+        display: none;
+    }
+
+    .socials {
+        justify-content: end;
+    }
+
+    .brand-logo, .team-photo img {
+        width: 100%;
+    }
+
+    .main-menu li {
+        height: 100%;
+    }
+
+    .main-menu li {
+        margin-right: 2.4em;
+    }
+
+    .header-image {
+        height: 275px;
+    }
+
+    .dropdown-menu .main-menu-item {
+        margin-bottom: 0;
+    }
+
+    .clublog {
+        width: 22%;
+    }
+
+    .sportlink-table {
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    .content-container {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .brand-logo img, .sponsorlogo img {
+        width: 124px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .main-container {
+        padding-bottom: 275px;
+    }
+
+    .activity {
+        padding-bottom: 360px;
+    }
+
+    .team-container, .overview-container, .index, .contact-container {
+        padding-bottom: 320px;
+    }
+
+    .front-page, .sponsorteam-page {
+        padding-bottom: 320px;
+    }
+
+    .header-text__col {
+        display: none;
+    }
+
+    .navbar-toggler {
+        background: #009624;
+    }
+
+    .navbar-collapse {
+        padding: 0;
+    }
+
+    .brand-logo {
+        padding: 12px;
+    }
+
+    .brand-logo, .sponsorlogo img {
+        height: 100px;
+        position: inherit;
+    }
+
+    .sponsorlogo img {
+        margin-left: auto;
+        display: block;
+    }
+
+    .navbar-collapse li::before, .navbar-collapse li::after {
+        content: none;
+    }
+
+    .main-menu, .main-menu li, .navbar-toggler, .header-image-text .container {
+        width: 100%;
+    }
+
+    .main-menu {
+        position: absolute;
+        z-index: 100;
+        min-height: 120px;
+    }
+
+    .main-menu li {
+        padding-left: 12px;
+    }
+
+    .header-image-text .container {
+        background-color: rgba(242, 242, 242, .8);
+        padding-left: 0;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    .programmaTijd, .programmaDatum, .programma td:nth-child(3), .programma td:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .team-sponsors img {
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+    }
+
+    .matches, .news-row {
+        padding-bottom: 150px;
+    }
+
+    .team-sponsors, .result-block__program, .program-result__item {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .team-sponsors, .result-block__program .team-data {
+        margin-top: calc(var(--bs-gutter-x) * 0.5);
+    }
+
+    .result-block__program {
+        padding: 0;
+    }
+
+    .home-news__item-right {
+        margin-left: calc(var(--bs-gutter-x) * .5);
+        margin-right: calc(var(--bs-gutter-x) * .5);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .header-col {
+        padding-top: 10px;
+    }
+
+    .header-sponsors, .header-sponsors .col-4 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .team-logo, .team-logo img {
+        height: 100px;
+    }
+
+    .navbar-light {
+        height: 72px;
+    }
+
+    .last-match__home {
+        height: 200px;
+    }
+
+    .archive-sponsor__item picture {
+        width: 100%;
+    }
+
+    .single-teams .programmaDatum, .single-teams .programma td:nth-child(2) {
+        margin-top: 10%;
+    }
+
+    .result-block__program > * {
+        padding: 0;
+    }
+
+    .team-sponsors img {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .brand-logo {
+        height: 100%;
+        width: auto;
+        max-height: 120px;
+    }
+}
+
+@media only screen and (min-width: 994px) {
+    .home-sidebar__item {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .header-image {
+        height: 300px;
+    }
+
+    .navbar-light {
+        height: 80px;
+    }
+
+    .item {
+        width: 32%;
+        margin-left: 2%;
+    }
+
+    .clublog {
+        width: 30%;
+    }
+
+    .single-teams .programmaDatum, .single-teams. programma td:nth-child(2) {
+        margin-top: 15%;
+    }
+
+    .desktopRanking {
+        display: none;
+    }
+
+    .mobileRanking {
+        display: inherit;
+    }
+
+    .header-text__image {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 993px) {
+    .main-menu {
+        min-height: 50px !important;
+    }
+
+    .sportlink-table table, .rangNum span, .standLogo span {
+        font-size: 14px;
+    }
+
+    .ranking table {
+        white-space: nowrap;
+    }
+
+    .header-sponsors {
+        padding: 12px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .mega-menu-link {
+        font-size: 14px !important;
+    }
+
+    .mega-sub-menu a {
+        font-size: 12px !important;
+    }
+
+    .header-text__image {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .header-text__image {
+        width: 75%;
+    }
+
+    .mega-main-menu-item a {
+        font-size: 18px !important;
+    }
+
+    .mega-sub-menu a {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .header-image, .header-slider {
+        max-width: 1320px;
+        padding: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .desktopRanking {
+        display: inherit;
+    }
+
+    .mobileRanking {
+        display: none;
+    }
+}
+
+.mobile-menu #mega-menu-wrap-primary {
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+

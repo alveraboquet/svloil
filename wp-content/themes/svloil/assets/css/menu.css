@@ -1,0 +1,120 @@
+nav {
+    padding: 0 !important;
+}
+
+.navbar-light {
+    box-shadow: 0 4px 7px -7px #222;
+}
+
+.menu, .menu li {
+    list-style: none;
+}
+
+#mega-menu-wrap-primary {
+    background: transparent !important;
+}
+
+@media only screen and (max-width: 766px) {
+    #mega-menu-wrap-primary, .mega-menu-item, .mega-sub-menu, .mega-sub-menu-item {
+        width:100% !important;
+    }
+    .mega-menu-item {
+        margin: 0 !important;
+    }
+
+    .mega-toggle-animated-inner, .mega-toggle-animated-inner::before, .mega-toggle-animated-inner::after {
+        background-color: white !important;
+    }
+}
+
+.mega-menu-primary {
+    min-height: 48px !important;
+}
+
+.mega-menu-item {
+    position: relative !important;
+    display: block !important;
+    cursor: pointer !important;
+    user-select: none !important;
+    color: #666 !important;
+    float: left !important;
+}
+
+.mega-menu-item::before, .mega-menu-item::after {
+    content: '' !important;
+    position: absolute !important;
+    display: block !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+@media only screen and (min-width: 767px) {
+    .mega-menu-item {
+        margin-left: 18px !important;
+        margin-right: 18px !important;
+    }
+    .mega-menu-item::before {
+        left: -1.5em !important;
+    }
+
+    .mega-menu-item::before, .mega-menu-item:hover::before, .mega-menu-item:active::before {
+        border-top: 2.85em solid transparent !important;
+        border-right: 1.5em solid #388E3C !important;
+    }
+
+    .mega-menu-item::after {
+        top: 0 !important;
+        right: -1.5em !important;
+    }
+
+    .mega-menu-item::after, .mega-menu-item:hover::after, .mega-menu-item:active::after {
+        border-top: 2.85em solid #388E3C !important;
+        border-right: 1.5em solid transparent !important;
+    }
+
+    .mega-sub-menu, .sub-menu-item {
+        max-width: 172px !important;
+    }
+}
+
+.mega-menu-item:hover, .mega-menu-item:active, #mega-menu-wrap-primary .mega-menu-toggle {
+    background: #388E3C !important;
+}
+
+.mega-menu-item:active {
+    color: #BBB !important;
+}
+
+.mega-menu-item a {
+    color: white !important;
+    padding-bottom: 10px !important;
+    background: #388E3C !important;
+}
+
+.mega-sub-menu {
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none;
+}
+
+.left-menu {
+    left: -1.3rem !important;
+}
+
+.sub-menu-item {
+    width: 100% !important;
+    font-size: 15px !important;
+    margin-left: 0 !important;
+}
+
+.sub-menu-item::before, .sub-menu-item::after {
+    content: none !important;
+}
+
+.mega-sub-menu a:hover, .mega-sub-menu a:active {
+    background: #43A047;
+}
+
+#mega-menu-wrap-primary #mega-menu-primary>li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item ul.mega-sub-menu {
+    left: 100% !important;
+}

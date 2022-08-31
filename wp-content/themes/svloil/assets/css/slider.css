@@ -1,0 +1,33 @@
+.slick-track, .wpcp-single-item {
+    display: block !important;
+}
+
+.footer .slick-track, .footer .wpcp-single-item {
+    height: 140px !important;
+}
+
+.footer .slick-slide img {
+    height: 100% !important;
+}
+
+.footer .wpcp-carousel-preloader img {
+    display: none;
+}
+
+.header-slider .slick-track, .header-slider .wpcp-single-item {
+    height: 320px;
+}
+
+.header-slider .wpcp-single-item img {
+    height: 320px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.header-slider .slick-slide {
+    margin: 0 !important;
+}
+
+.wpcp-carousel-section .slick-list {
+    margin-right: 0;
+}

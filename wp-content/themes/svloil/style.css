@@ -1,0 +1,32 @@
+/*
+Theme Name: SV Loil
+Theme URI: https://barrt.nl/projecten/wordpress
+Author: Bart de Kinkelaar
+Author URI: https://barrt.nl
+Description: The SV Loil themes
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: <https://www.gnu.org/licenses/gpl-2.0.html>
+Text Domain: svloiltheme
+*/
+
+body
+{
+    text-align: left;
+}
+#ttr_sidebar
+{
+    border-left: 1px solid black;
+}
+#ttr_footer
+{
+    width: 100%;
+    border-top: 1px #a2a2a2 solid;
+    text-align: center;
+}
+.title
+{
+    font-size: 11pt;
+    font-family: verdana;
+    font-weight: bold;
+}

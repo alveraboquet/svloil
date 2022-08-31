@@ -1,0 +1,72 @@
+form, button, input, optgroup, select, textarea {
+    font-family: 'Epilogue', sans-serif;
+}
+
+.fw-form {
+    background-color: #080;
+}
+
+.fw-form .container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.fw-form h2 {
+    text-align: center;
+    color: white;
+}
+
+.fw-form .form {
+    margin: auto;
+}
+
+.fw-form input, .fw-form select, .fw-form textarea {
+    border: 0;
+    margin-bottom: 10px;
+    border-radius: 0;
+}
+
+.fw-form input, .fw-form input:focus, .fw-form button, .fw-form textarea,
+.fw-form select, .fw-form select:focus, .wpcf7-form-control-wrap textarea,
+.wpcf7-form-control-wrap input, .wpcf7-form-control-wrap input:focus,
+.wpcf7-form-control-wrap select, .wpcf7-form-control-wrap select:focus {
+    background: #E5F3E5 !important;
+    color: #050 !important;
+    width: 100%;
+}
+
+.fw-form input::placeholder, .fw-form select::placeholder, .fw-form textarea::placeholder {
+    color: #696 !important;
+}
+
+.fw-form textarea {
+    padding: .375rem .75rem;
+}
+
+.fw-form input[type="submit"], .wpcf7-submit {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 18px;
+    border: 1px solid #66B766;
+    color: white;
+    background: #4CAF50 !important;
+}
+
+.fw-form .wpcf7-spinner {
+    display: none;
+}
+
+.wpcf7-response-output {
+    background-color: #4CAF50;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output,
+.wpcf7 form.payment-required .wpcf7-response-output {
+    border-color: #4CAF50;
+}
+
+.wpcf7-not-valid-tip {
+    color: white;
+    font-weight: bold;
+}

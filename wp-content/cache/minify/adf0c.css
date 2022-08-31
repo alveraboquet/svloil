@@ -1,0 +1,39 @@
+body{text-align:left}#ttr_sidebar{border-left:1px solid black}#ttr_footer{width:100%;border-top:1px #a2a2a2 solid;text-align:center}.title{font-size:11pt;font-family:verdana;font-weight:bold}html,body{background-color:#fff;font-family:'Epilogue',sans-serif;width:100%}*{box-sizing:border-box}.headerLogo{height:140px;padding:10px
+0}.headerLogo_split{border-left:2px solid lightgray;height:66px;margin-top:25px;width:3px}.brandLogo,.sponsorLogo{margin:auto;display:inline-block}.brandLogo img, .sponsorLogo
+img{padding-right:12px}.brandLogo
+img{width:auto;height:100%}a{text-decoration:none;color:black}a:hover,a:active{color:#007f3c}.slick-track, .wpcp-single-item, .wpcp-single-item
+img{height:140px !important}.wpcp-carousel-preloader
+img{display:none}ul{width:100%;padding:0;margin:0;font-size:18px}.content-container{margin-top:30px;margin-bottom:15px}.footer{background-color:#f7f7f7}.header_image{height:340px;background-position:center;background-image:url('/projecten/svloil/wp-content/uploads/2021/11/RK_kerk_Loil_resized.png');background-repeat:no-repeat}.map{height:100%;width:100%;border-radius:1%}.carousel{padding:10px
+0}.commissies
+td{width:50%;max-width:50%}@media only screen and (max-width: 576px){.content-container{margin-top:20px;margin-bottom:10px}.header_image{height:230px}.headerSponsor_main{padding:0}.headerSponsor_sub{display:none}.navbar-collapse{padding:0}.navbar-collapse li::before, .navbar-collapse li::after{content:none}.navbar-brand{display:none}.brandLogo
+img{z-index:inherit}.brandLogo img, .headerMain_sponsor .sponsorlogo
+img{width:148px}.navbar-toggler{width:100%;background:#080;border-radius:0}.sidebar{display:none}.main-menu{position:absolute;z-index:100;width:100%}.lastMatch_result
+p{font-size:32px}.matchTeam
+p{font-size:24px}.sponsorlogo
+img{margin:auto;display:block}.archiveSponsor_itemLogo{width:100%}.teamPhoto,.teamLogo{width:100%}}@media only screen and (min-width: 577px) and (orientation: portrait){.mainHeader{display:none}}@media only screen and (min-width: 577px){.main-menu
+li{margin-right:3em;height:100%}.header_image{height:275px}.dropdown-menu .main-menu-item{margin-bottom:0}}@media only screen and (min-width: 577px) and (max-width: 767px){.content-container{margin-top:40px;margin-bottom:20px}.navbar-brand{text-align:right}.brandLogo img, .sponsorlogo
+img{width:124px}}@media only screen and (max-width: 767px){.headerSponsor_item{display:none}.navbar-brand{display:none}.navbar-toggler{background:#080}.navbar-collapse{padding:0}.brandLogo
+img{position:inherit;margin:auto;height:auto}.navbar-collapse li::before, .navbar-collapse li::after{content:none}.main-menu, .main-menu li,.navbar-toggler{width:100%}.main-menu{position:absolute;z-index:100;min-height:120px}.headerLogo{padding-top:12px;padding-bottom:12px}}@media only screen and (max-width: 767px) and (orientation: portrait){.headerLogo{padding-top:12px;padding-bottom:12px}}@media only screen and (min-width: 768px){.navbar-collapse{padding-top:0.3125rem;padding-bottom:0.3125rem}.navbar-brand{width:200px}.navbar-light{height:80px}.teamLogo{width:140px}.teamLogo
+img{width:100%}.lastMatch_home
+.container{height:250px}.archiveSponsor_item{display:inline-block}.archiveSponsor_item
+picture{width:100%}.sponsorlogo
+img{width:100%}}@media only screen and (min-width: 992px){.headerSponsor{height:110px}.header_image{height:320px}}@media only screen and (max-width: 1200px){.main-menu{min-height:100px}}.teamLogo{margin:auto;display:inherit}.lastMatch
+div{height:100%}.lastMatch_home
+p{text-align:center}.lastMatch_home
+.container{padding-top:16px;padding-bottom:16px}.lastMatch_result
+p{font-size:54px}.matchTeam
+p{font-size:32px}.teamData
+img{width:100%}.sponsorLogo
+img{padding-top:16px;height:100px}.headerSponsor{background-color:#fcfcfc;padding:10px
+0px}.headerSponsor_item{background-color:#fcfcfc;padding:0px
+10px;display:inline-block}.archiveSponsor{display:block;margin-bottom:15px}.archiveSponsor_sub{padding:0px
+10px 0px 0px}.sidebar{border-left:1px solid lightgray}.side_sponsors{margin:auto}.side_sponsor{margin-bottom:10%}.side_sponsor
+img{width:100%}nav{background-color:#fff !important;padding:0px
+!important}.navbar-light{box-shadow:0 4px 7px -7px #222}.menu, .menu
+li{list-style:none}.main-menu{min-height:47px}.main-menu
+li{position:relative;display:block;float:left;cursor:pointer;user-select:none;color:#666;background:#080;text-align:center}.main-menu-item::before,.main-menu-item::after{content:'';position:absolute;display:block;width:0;height:0}.main-menu-item::before{left:-1.5em}.main-menu-item::before,.main-menu-item:hover::before,.main-menu-item:active::before{border-top:2.5em solid transparent;border-right:1.55em solid #080}.main-menu-item::after{top:0;right:-1.5em}.main-menu-item::after,.main-menu-item:hover::after,.main-menu-item:active::after{border-top:2.5em solid #080;border-right:1.55em solid transparent}.main-menu-item:hover,.main-menu-item:active{background:#080}.main-menu-item:active{color:#BBB}.main-menu-item
+a{color:white !important;padding-bottom:10px !important}.sub-menu-item{width:100%;background-color:#199319 !important}.sub-menu-item::before,.sub-menu-item::after{content:none}.sub-menu-item
+a{padding:5px
+0px !important}.dropdown-menu{padding:0px
+!important;margin:0px
+!important;left:-28px !important;left:-100%;border:none}.dropdown-menu a:hover, .dropdown-menu a:active{background:#329f32 !important}

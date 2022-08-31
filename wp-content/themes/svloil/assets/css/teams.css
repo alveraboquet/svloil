@@ -1,0 +1,209 @@
+.team-logo {
+    margin: auto;
+    display: inherit;
+}
+
+.last-match div {
+    height: 100%;
+}
+
+.last-match-women, .last-match-men, .result-overview, .program-overview, .team-program {
+    background: white;
+    box-shadow: rgb(0 0 0 / 10%) 0 3px 11px 0 !important;
+}
+
+.last-match-women p, .last-match-men p {
+    padding: 12px 6px;
+}
+
+.last-match__home p, .last-match__home span, .club-matches__div p, .result-overview p, .program-overview p, .team-program p {
+    text-align: center;
+}
+
+.last-match__home, .club-matches__div p, .result-overview p, .program-overview p, .team-program p {
+    padding-top: 12px;
+}
+
+.last-match__home, .ranking, .result-overview p, .program-overview p, .team-program p {
+    padding-bottom: 8px;
+    height: auto;
+}
+
+.ranking {
+    padding-top: 4px;
+}
+
+.last-match__result p {
+    font-size: 54px;
+}
+
+.match-team p {
+    font-size: 32px;
+}
+
+.team-data img {
+    width: 100%;
+}
+
+.ranking, .last-match__home {
+    border-radius: 5px;
+}
+
+.ranking table thead, .teamstand table thead {
+    border-bottom: 2px solid #81C784;
+}
+
+.ranking table thead, .teamstand table thead, .program thead, .programma thead, .poule-programma thead {
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+.ranking table th, .teamstand table th {
+    padding: 8px 10px 6px 10px;
+}
+
+.ranking table th, .teamstand table th, .block-head__program, .programma table th, .result table th, .program table th {
+    font-size: 16px;
+    color: white;
+    background: #388E3C;
+    /*background: #009624;*/
+}
+
+.ranking table tr, .teamstand table tr, .result table tr, .program table tr, .last-match__heading {
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.ranking table tr:nth-child(14), .ranking table tr:nth-child(14) td,
+.teamstand table tr:last-child, .ranking table .own, .ranking table .own td,
+.teamstand table tr:last-child td, .result table tr:last-child, .result table tr:last-child td,
+.program table tr:last-child, .program table tr:last-child td {
+    border-bottom: 0 !important;
+}
+
+.ranking .own, .teamstand .own {
+    font-weight: bold;
+    display: table-row !important;
+}
+
+.ranking tr:nth-child(+n+6) {
+    display: none;
+}
+
+.last-match__home .row {
+    border-radius: 5px;
+}
+
+.desktopRanking {
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+}
+
+.programma tbody {
+    border: 0 !important;
+}
+
+.uitslagen .datetime, .poule-programma .datetime, .program .datetime, .programma .datetime {
+    color: #009624;
+    font-weight: bold;
+}
+
+.poule-programma .string {
+    word-break: break-all;
+}
+
+.programma {
+    margin-bottom: 0;
+}
+
+.single-teams .programmaDatum, .single-teams .programmaTijd,
+.single-teams .programma td:nth-child(3), .single-teams .programma td:nth-child(2) {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.block-head__program {
+    margin: 0;
+    font-weight: bold;
+    padding: 4px 10px;
+}
+
+.block-head__program, .poulestand th:first-child {
+    border-top-left-radius: 5px;
+}
+
+.block-head__program, .poulestand th:last-child {
+    border-top-right-radius: 5px;
+}
+
+.rangNum span, .standLogo span {
+    font-size: 15px;
+}
+
+.gespeeldNum span, .winstNum span, .gelijkNum span, .verliesNum span, .saldoNum span, .puntenNum span {
+    font-size: 14px;
+}
+
+.result-block__program, #ranking {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#program, #result {
+    padding: 0;
+}
+
+.team-sponsors h2 {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.team-sponsors .clothing {
+    margin-top: 16px;
+}
+
+.poulestand .club {
+    font-size: 12px;
+}
+
+.ranking .pouleLogo .string,
+.stand-heren table tr td:nth-child(0) .string,
+.stand-heren table tr:nth-child(0) .string,
+.stand-vrouwen table tr td:nth-child(0) .string,
+.stand-vrouwen table tr:nth-child(0) .string {
+    display: none;
+}
+
+.shirt, .clothing {
+    background: #388E3C;
+    color: white;
+    padding: 4px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.shirt-field, .clothing-field {
+    background-color: white;
+}
+
+.matches {
+    padding-bottom: 36px;
+}
+
+.team-lead {
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 10%) 0 3px 11px 0 !important;
+}
+
+.team-lead__name {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100%;
+    color: gray;
+    background-color: white;
+    padding: 12px 6px;
+}

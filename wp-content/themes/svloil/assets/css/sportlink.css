@@ -1,0 +1,42 @@
+.programma th, .program th, .team-gegevens th, .poule-programma th, .uitslagen th {
+    display: none;
+}
+
+.clublogo {
+    width: 100%;
+}
+
+.poulestand .clublogo {
+    min-width: 24px;
+    max-width: 42px;
+}
+
+.poulestand td {
+    vertical-align: middle;
+}
+
+.table-block__tablet {
+    margin-bottom: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: calc(var(--bs-gutter-x) * 0.5);
+}
+
+.single-teams .programma tr, .single-teams .programma td {
+    border-bottom: none;
+}
+
+.programma .clublogo {
+    max-width: 100px;
+}
+
+.sportlink-table table {
+    width: 100%;
+    color: gray;
+    background: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 11px 0 !important;
+}
+
+.sportlink-table table td {
+    padding: 12px 6px;
+}
