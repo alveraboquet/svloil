@@ -23,3 +23,11 @@
 .header-sponsors .col-6 {
     padding: 0;
 }
+
+.sponsor-head {
+    display: flex;
+}
+
+.sponsor-head__item {
+    height: 30%;
+}

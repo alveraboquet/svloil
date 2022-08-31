@@ -77,7 +77,7 @@ if (is_single()) {
                         echo '<i>' . get_the_date() . '</i>';
                     }
                     if (get_post_type() === 'activity') {
-                        echo '<i>' . date("d-m-Y", strtotime(get_field('date'))) . '</i>';
+                        echo '<i>' . date('d-m-Y', strtotime(get_field('date'))) . '</i>';
                     }
                     ?>
                 </div>
