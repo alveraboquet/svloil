@@ -14,7 +14,9 @@
                 <b><a href="http://svloil.nl/projecten/svloil/privacybeleid">Privacy</a></b>
             </div>
             <div class="row">
-                <p>Copyright &copy; 2022 | <a href="https://barrt.nl/" target="_blank">BARRT</a></p>
+                <p>Copyright &copy; 2022 |
+                    <a href="https://barrt.nl/" target="_blank" style="text-underline: #0c0c0c">Bart de Kinkelaar</a>
+                </p>
             </div>
         </div>
         <div class="col-6 footer-col footer-col__right">
